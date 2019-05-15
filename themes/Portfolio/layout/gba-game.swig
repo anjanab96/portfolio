@@ -33,6 +33,9 @@
                 </div>
                 
             </div>
+            <div class="project-details-section">
+                <h4><a href="https://github.com/anjanab96/CS2261-GBAGame">Link to Github Repo</a></h4>
+            </div>
             
         
     </div>

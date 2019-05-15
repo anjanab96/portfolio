@@ -22,8 +22,17 @@
                 able to better understand the different types of consumers and their needs while shopping for 
                 shoes. We wanted to learn more about their approach to the process; whether they primarily 
                 browse, look for specific items, or both.</p>
-                <div id="">
+                <div id="shugl-survey">
+                    <div class="shugl-survey-item">
+                        <img src="/img/shugl/survey-1.PNG">
+                        <small>Survey questions</small>
+                    </div>
+                    <div class="shugl-survey-item">
+                        <img src="/img/shugl/survey-2.PNG">
+                        <small>Survey questions</small>
+                    </div>
                 </div>
+              
             </div>
             <div class="project-details-section">
                 <h4>Analysis</h4>
@@ -39,6 +48,8 @@
                 <p>In addition to these pain points, we found that many shoppers have different attitudes towards the 
                 shoe buying process before the experience begins. Some customers want to get in and out as quickly as 
                 possible, while others are more open to possibilities and wouldn’t mind browsing. </p>
+                <img src="/img/shugl/HTA.png">
+                <small>Hierarchical task analysis for shoe shopping</small>
             </div>
             <div class="project-details-section">
                 <h4>Iterations</h4>
@@ -46,6 +57,16 @@
                 and an in-store kiosk. During an in-class poster session, we shared the designs with classmates and received 
                 feedback. We then evaluated each interface in terms of value added to the shopper and ultimately chose to 
                 proceed with prototyping the mobile application.</p>
+                <div id="shugl-iterations">
+                    <div class="shugl-iterations-item">
+                        <img src="/img/shugl/shuglSketches1png.png">
+                        <small></small>
+                    </div>
+                    <div class="shugl-iterations-item">
+                        <img src="/img/shugl/shuglSketches2.png">
+                        <small></small>
+                    </div>
+                </div>
             </div>
             <div class="project-details-section">
                 <h4>Final Product</h4>
@@ -55,6 +76,16 @@
                 interactions with the applications until we introduced Shugl specifics features. Additionally, users reported to 
                 us that they would find this application useful but would not want it occupying space on their phone storage. In 
                 the future, the development of a mobile website could be a better platform for this tool.</p>
+                <div id="shugl-final">
+                    <div class="shugl-final-item">
+                        <img src="/img/shugl/ShuglIcon.png">
+                        <small>Home screen</small>
+                    </div>
+                    <div class="shugl-final-item">
+                        <img src="/img/shugl/shugl.png">
+                        <small>Shoe detail screen</small>
+                    </div>
+                </div>
             </div>
             <div class="project-details-section">
                 <h4><a href="https://projects.invisionapp.com/share/E9CIF172K">Link to Prototype</a></h4>

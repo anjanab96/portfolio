@@ -9,7 +9,7 @@
         <div class="content-box flex-one"><a href="/shugl"><p class="project-title">Shugl</p><p class="project-subtitle">Georgia Tech - CS 3750</p></a></div>
         <div class="content-box flex-two medium-bg"><a href="/buzzcard-reader-installation"><p class="project-title">Buzzcard Reader Installation</p><p class="project-subtitle">Georgia Tech - MGT 4052</p></a></div>
         <div class="content-box flex-one light-bg"><a href="/gba-game"><p class="project-title">GBA Game</p><p class="project-subtitle">Georgia Tech - CS 2261</p></a></div>
-        <div class="content-box flex-three light-bg"><a href="/pig-game"><p class="project-title">Pig Game</p><p class="project-subtitle">Udemy</p></a></div>
-        <div class="content-box flex-three"><a href="/budget-calculator"><p class="project-title">Budget Calculator</p><p class="project-subtitle">Udemy</p></a></div>
+        <div class="content-box flex-three light-bg"><a href="/pig-game"><p class="project-title">Pig Game</p><p class="project-subtitle">Udemy - The Complete Javascript Course</p></a></div>
+        <div class="content-box flex-three"><a href="/budget-calculator"><p class="project-title">Budget Calculator</p><p class="project-subtitle">Udemy - The Complete Javascript Course</p></a></div>
     </div>
 </div>

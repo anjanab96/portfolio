@@ -37,6 +37,12 @@
                     font-weight: 600; 
                 }
 
+                img {
+                    width: 80%; 
+                }
+                small {
+                    display: block;
+                }
                 #diagrams {
                     display:flex; 
                     flex-wrap: wrap; 
@@ -161,11 +167,37 @@
                     }
                 }
 
-               
+                #shugl-survey, #shugl-iterations, #shugl-final {
+                    display:flex; 
+                    margin-top: 5%; 
 
-            }
-            
+                    .shugl-survey-item, .shugl-iterations-item, .shugl-final-item {
+                        display: flex;
+                        flex-direction: column; 
+                        margin-right: 5%; 
+
+                        img {
+                            width: 100%; 
+                            margin-bottom: 2%; 
+                        }
+                    }
+                }
+
+                #shugl-iterations {
+                    flex-wrap: wrap; 
+                    .shugl-iterations-item:nth-of-type(2) {
+                        min-width: 500px; 
+                    }
+                }
+
+                #shugl-final {
+                    .shugl-final-item {
+                        img {
+                            min-width: 400px; 
+                        }
+                    }
+                }
+            }  
         }
-
     }
 }

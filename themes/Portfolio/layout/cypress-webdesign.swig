@@ -16,7 +16,7 @@
                 engineers, etc. Members of management also need to be able to understand why Cypress is valuable, 
                 and the current information on the website wasn’t showing that in an obvious way. The goal was to 
                 create visual aids that help understand how the dashboard works with the test runner, and why it’s
-                 worth paying a premium for.</p>
+                 worth paying a premium for. You can also view these graphics <a href="https://www.cypress.io/dashboard/" target="_blank">here.</a></p>
                  <div id="diagrams">
                     <div class="diagram-item">
                         <img src="/img/web-design/grouping.PNG">
@@ -48,7 +48,7 @@
                 expandable table.
 
                 For the list of upcoming events, I went with a card style grid layout, with accents of the green branding 
-                color scattered throughout. </p>
+                color scattered throughout. You can view this page <a href="https://www.cypress.io/events/" target="_blank">here.</a></p>
 
                 <div id="events">
                     <div class="events-item">

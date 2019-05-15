@@ -25,6 +25,9 @@
                     </div>
                 </div>
             </div>
+            <div class="project-details-section">
+                <h4><a href="https://github.com/anjanab96/pig-game" target="_blank">Link to Github Repo</a></h4>
+            </div>
             
         </div>
     </div>

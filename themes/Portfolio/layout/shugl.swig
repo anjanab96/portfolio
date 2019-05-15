@@ -22,6 +22,8 @@
                 able to better understand the different types of consumers and their needs while shopping for 
                 shoes. We wanted to learn more about their approach to the process; whether they primarily 
                 browse, look for specific items, or both.</p>
+                <div id="">
+                </div>
             </div>
             <div class="project-details-section">
                 <h4>Analysis</h4>

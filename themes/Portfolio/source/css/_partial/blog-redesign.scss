@@ -1,0 +1,171 @@
+.site-wrapper {
+
+    .page-content-wrapper {
+        display: flex; 
+        flex-direction: column; 
+        width: 85%; 
+        margin-left: 35%;
+        margin-top: 5%; 
+        margin-right: 15%; 
+        margin-bottom: 5%; 
+
+        .project-page-header {
+
+            h2 {
+                font-size: 2em; 
+            }
+
+            h3 {
+                font-size: 1.5em;
+                font-weight: 500; 
+            }
+        }
+
+        .project-details {
+
+            .project-details-section {
+
+                h4 {
+                    font-size: 1.3em; 
+                }
+                p {
+                    font-size: 1em; 
+
+                    a {
+                        color: #d4145a; 
+                        font-weight: 600; 
+                    }
+                }
+
+                #diagrams {
+                    display:flex; 
+                    flex-wrap: wrap; 
+
+                    .diagram-item {
+
+                        display:flex; 
+                        flex-direction: column; 
+                        width: 45%; 
+                        margin-bottom: 5%;
+                        margin-right: 5%; 
+                      
+                        img {
+                            width: 100%; 
+                        }
+
+                    }
+                    
+                }
+
+                #blog-iterations {
+                    display:flex; 
+                    flex-wrap: wrap; 
+                  
+
+                    .iteration {
+                        display:flex; 
+                        flex-direction: column; 
+                        width: 45%; 
+                        margin-right: 5%; 
+                        margin-bottom: 5%; 
+
+                        img {
+                            width: 100%; 
+                            margin-bottom: 2%; 
+                        }
+                    }
+                }
+
+                #blog-final {
+                    display:flex; 
+                    flex-wrap:wrap; 
+
+                    .blog-final-item {
+                        width: 45%; 
+                        margin-right: 5%; 
+                        margin-bottom: 5%; 
+                        
+                        img {
+                            width: 100%; 
+                        }
+                    }
+                }
+
+                #events {
+                    display:flex; 
+                    flex-wrap: wrap; 
+
+                    .events-item {
+                        display:flex; 
+                        flex-direction: column; 
+                        margin-right: 5%; 
+                        margin-bottom: 5%; 
+
+                        img {
+                            width: 100%; 
+                            margin-bottom: 5%; 
+                        }
+                    }
+                }
+
+                #buzzcard-analysis {
+                    display: flex; 
+                    flex-wrap: wrap; 
+                    margin-top: 5%; 
+
+                    .buzzcard-analysis-item {
+                        display: flex; 
+                        flex-direction: column; 
+                        margin-bottom: 5%; 
+
+                        img {
+                            width: 100%; 
+                            margin-bottom: 2%; 
+                        }
+
+                    }
+                }
+
+                #buzzcard-final {
+                    margin-top: 5%; 
+                    img {
+                        margin-bottom: 2%; 
+                    }
+                }
+
+                #gba-images {
+                    display:flex; 
+
+                    .gba-images-item {
+                        display:flex; 
+                        flex-direction: column; 
+                        margin-right: 5%; 
+                        margin-top: 5%; 
+                        img {
+                            margin-bottom: 2%; 
+                        }
+                    }
+                }
+
+                #pig-game-images {
+                    display: flex; 
+
+                    .pig-game-image {
+                        display: flex; 
+                        flex-direction: column; 
+                        img {
+                            width: 70%; 
+                            margin-top: 2%; 
+                            margin-bottom: 2%; 
+                        }
+                    }
+                }
+
+               
+
+            }
+            
+        }
+
+    }
+}

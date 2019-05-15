@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5, blockquote {
+    font-family: 'Merriweather', serif; 
+    color: #333333; 
+}
+
+p, ul, li, span, input, textarea, button, small {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+ul, li, a {
+    color: #333333; 
+    text-decoration: none; 
+}
+
+small {
+    font-style: italic; 
+    font-weight: 300; 
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 400; 
+}
+
+button {
+    background: #d4145a; 
+    border-radius: 5px; 
+    box-shadow: none; 
+    border: none; 
+    color: white; 
+    padding: 1% 10%; 
+}
+
+button:hover {
+    background: #690a2c; 
+}
+
+

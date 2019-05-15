@@ -1,0 +1,135 @@
+.site-wrapper {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+
+    .main-nav {
+        display:flex; 
+        flex-direction: column;
+        position:fixed; 
+        top: 0; 
+        left: 0;
+        width: 15%; 
+        background-color: #fef4f8; 
+        min-height: 800px;  
+        padding: 3% 3% 3% 2%; 
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 3%; 
+        }
+
+        #subtitle-accent {
+            color:#d4145a; 
+            font-size: 1.5em; 
+            font-weight: 700; 
+            margin-top: 0; 
+            margin-bottom: 50%; 
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0; 
+            margin-bottom: 40%; 
+
+            li {
+                font-weight:600; 
+                font-size: 18px;
+                margin-bottom: 7%; 
+                padding-left: 2%; 
+            }
+            .active {
+                border-left: 5px solid #d4145a; 
+                font-weight: 600; 
+            }
+            a:hover {
+                color: #d4145a; 
+                font-weight: 600; 
+            }
+        }
+
+        #sidebar-social-icons {
+            display: flex; 
+            justify-content: space-between;
+            width: 60%; 
+            margin-top: auto;  
+
+            .sidebar-icon i {
+                 font-size: 35px; 
+                 color: #d4145a;
+            }
+
+            .sidebar-icon i:hover {
+                color: #690a2c; 
+            }
+        }
+    }
+
+    .content-wrapper {
+        display: flex;  
+        flex-wrap: wrap; 
+        width: 85%; 
+        margin-left: 27%;
+        margin-top: 2%; 
+        margin-right: 5%; 
+
+
+        .content-box {
+            display:flex; 
+            flex-direction: column; 
+            justify-content: flex-end; 
+            flex: 0 0 30%; 
+            background:#690a2c; 
+            min-width: 300px; 
+            margin-right: 1%; 
+            margin-bottom: 1%; 
+            padding-left: 1%; 
+            padding-bottom: 2%; 
+            height: 180px;
+            cursor: pointer;
+
+            a {
+                color: white; 
+            }
+            
+            p {
+                padding-left: 4%; 
+                margin-bottom: 0; 
+            }
+
+            .project-title {
+                font-weight: 600; 
+                font-size: 18px;
+            }
+
+            .project-subtitle {
+                font-weight: 500; 
+                font-style: italic; 
+                font-size: 15px; 
+            }
+                     
+
+        }
+
+        .flex-one {
+            flex: 1 1 20%; 
+        }
+
+        .flex-two {
+            flex: 1 1 46%; 
+        }
+
+        .flex-three {
+            flex: 1 1 47%; 
+        }
+
+        .light-bg {
+            background: #d4145a; 
+        }
+
+        .medium-bg {
+            background: #ad1149;
+        }
+
+    }
+}

@@ -197,6 +197,15 @@
                         }
                     }
                 }
+
+                #notifications-iterations, #notifications-final {
+
+                    .notifications-iterations-item, .notifications-final-item {
+                        
+                        margin-bottom: 5%; 
+                    }
+                }
+
             }  
         }
     }

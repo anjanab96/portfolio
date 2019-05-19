@@ -4,3 +4,7 @@
 @import "_partial/blog-redesign";
 @import "_partial/contact";
 @import "_partial/shugl";
+
+
+// always import this last 
+@import "_partial/media-queries.scss";

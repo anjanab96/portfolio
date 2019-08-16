@@ -1,67 +1,44 @@
 .site-wrapper {
     display: flex; 
-    flex-direction: row; 
     flex-wrap: nowrap; 
+    justify-content: center;
 
     .main-nav {
         display:flex; 
-        flex-direction: column;
+        justify-content: flex-end;
         position:fixed; 
         top: 0; 
         left: 0;
-        width: 20%; 
-        background-color: #fef4f8; 
-        height: 100%;  
-        padding: 3% 2% 3% 2%; 
+        width:100%; 
+        background-color: #fef4f8;  
+        padding: 2% 0; 
 
-        h2 {
-            font-size: 2em;
-            margin-bottom: 3%; 
-        }
-
-        #subtitle-accent {
-            color:#d4145a; 
-            font-size: 1.5em; 
-            font-weight: 700; 
-            margin-top: 0; 
-            margin-bottom: 40%; 
+        #initial-logo {
+            margin-right:auto;  
+            margin-left: 15%;  
+            img {
+                width:80%; 
+            }
         }
 
         ul {
+            display: flex; 
             list-style: none;
             padding-left: 0; 
-            margin-bottom: 40%; 
+            align-items: center;
+            margin-right: 16%; 
 
             li {
+                display:inline;
                 font-weight:600; 
-                font-size: 1.3em;
-                margin-bottom: 5%; 
-                padding-left: 2%; 
+                font-size: 1.1em; 
+                font-family: 'Merriweather'; 
+                margin-left: 1.5em; 
             }
-            .active {
-                border-left: 5px solid #d4145a; 
-                font-weight: 600; 
-            }
+
             a:hover {
                 color: #d4145a; 
                 font-weight: 600; 
-            }
-        }
-
-        #sidebar-social-icons {
-            display: flex; 
-            justify-content: space-between;
-            padding: 0 35% 0 3% ; 
-            margin-top: auto;  
-            margin-bottom: 30%; 
-
-            .sidebar-icon i {
-                 font-size: 35px; 
-                 color: #d4145a;
-            }
-
-            .sidebar-icon i:hover {
-                color: #690a2c; 
             }
         }
     }
@@ -69,67 +46,89 @@
     .content-wrapper {
         display: flex;  
         flex-wrap: wrap; 
-        width: 80%; 
-        margin-left: 27%;
-        margin-top: 2%; 
-        margin-right: 2%; 
-
+        margin-top: 10%; 
+        width:80%; 
+    
 
         .content-box {
             display:flex; 
             flex-direction: column; 
             justify-content: flex-end; 
-            flex: 0 0 30%; 
-            background:#690a2c; 
-            min-width: 24%; 
-            margin-right: 1%; 
-            margin-bottom: 1%; 
-            padding-left: 1%; 
+            background:rgb(105, 10, 44); 
+            flex: 1 1 29%;
+            margin-right: 2%; 
+            margin-bottom: 2%; 
+            padding-left: 2%; 
             padding-bottom: 2%; 
-            height: 180px;
+            height: 250px;
             cursor: pointer;
 
             a {
                 color: white; 
-            }
+                  
+                    p {
+                        padding-left: 4%; 
+                        margin-bottom: 0; 
+                    }
+        
+                    .project-title {
+                        font-weight: 800; 
+                        font-size: 1.1em;
+                    }
+        
+                    .project-subtitle {
+                        font-weight: 700; 
+                        font-style: italic; 
+                        font-size: .9em; 
+                    }
+                
+            }        
+        }
+
+        .content-box:hover {
+            box-shadow: 0 1px 10px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.6);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
             
-            p {
-                padding-left: 4%; 
-                margin-bottom: 0; 
-            }
+        }
 
-            .project-title {
-                font-weight: 600; 
-                font-size: 1.1em;
-            }
+        .content-box:last-of-type {
+            max-width:29%; 
+        }
 
-            .project-subtitle {
-                font-weight: 500; 
-                font-style: italic; 
-                font-size: .9em; 
-            }
-                     
+        .blog {
+            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/blog-final-1.png') center center no-repeat;
+            background-size: cover; 
+           
+        }
+    
+        .notifications {
+            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/settings.png') center center no-repeat;
+            background-size: cover;
+        }
+        .design {
+            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/parallelization-diagram.png') center center no-repeat;
+            background-size: cover;
+        }
+
+        .tsv {
+            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/tsv.png') center center no-repeat;
+            background-size: cover;
+        }
+
+        .dfc {
+            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/dfc.png') center center no-repeat;
+            background-size: cover;
 
         }
 
-        .flex-one {
-            flex: 1 1 20%; 
+        .shugl {
+            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/shugl.png') center center no-repeat;
+            background-size: cover;
         }
 
-        .flex-two {
-            flex: 1 1 46%; 
-        }
-
-        .flex-three {
-            flex: 1 1 47%; 
-        }
-
-        .light-bg {
-            background: #d4145a; 
-        }
-
-        .medium-bg {
-            background: #ad1149;
+        .buzzcard {
+            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/bpmn.png') center center no-repeat;
+            background-size: cover;
         }
 
     }

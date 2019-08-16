@@ -1,13 +1,13 @@
 .site-wrapper {
+    display: flex;
+    justify-content: center;
 
     .page-content-wrapper {
         display: flex; 
         flex-direction: column; 
-        width: 85%; 
-        margin-left: 35%;
-        margin-top: 5%; 
-        margin-right: 15%; 
+        margin-top: 10%; 
         margin-bottom: 5%; 
+        width:70%; 
 
         .project-page-header {
 

@@ -12,10 +12,12 @@
         width:100%; 
         background-color: #fef4f8;  
         padding: 2% 0; 
+        z-index: 1;
 
         #initial-logo {
             margin-right:auto;  
             margin-left: 15%;  
+
             img {
                 width:80%; 
             }
@@ -48,41 +50,83 @@
         flex-wrap: wrap; 
         margin-top: 10%; 
         width:80%; 
-    
 
         .content-box {
-            display:flex; 
-            flex-direction: column; 
-            justify-content: flex-end; 
             background:rgb(105, 10, 44); 
             flex: 1 1 29%;
             margin-right: 2%; 
             margin-bottom: 2%; 
-            padding-left: 2%; 
-            padding-bottom: 2%; 
             height: 250px;
+            overflow: hidden;
             cursor: pointer;
+            position: relative;
+            background-size: cover;
 
-            a {
-                color: white; 
-                  
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+
+            .overlay {
+                display: flex;
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: center;
+                position: absolute; 
+                top: 0; 
+                background-image: linear-gradient(to bottom right, rgba(75,0,25,0.6), rgba(0,0,0,0.9)) ; /* Black see-through */
+                width: 100%;
+                height: 100%; 
+                transition: .5s ease;
+                opacity: 0.4;
+                font-size: 22px;
+                text-align: center;
+                a {
+                    color: white; 
                     p {
-                        padding-left: 4%; 
-                        margin-bottom: 0; 
+                        visibility: hidden; 
                     }
-        
-                    .project-title {
+                    .title {
+                        font-family: 'merriweather';
                         font-weight: 800; 
-                        font-size: 1.1em;
+                        margin-bottom: 1%; 
+                        
                     }
-        
-                    .project-subtitle {
-                        font-weight: 700; 
+                    .company {
                         font-style: italic; 
-                        font-size: .9em; 
+                        font-size: 16px;
+                        margin-bottom: 30px;
                     }
-                
-            }        
+                    .skills {
+                        font-size: 14px;
+                    }
+                }
+              
+            }
+        }
+
+        .blog {
+            background-image: url('/img/blog-final-1.png');
+        }
+
+        .notifs {
+            background-image: url('/img/settings.png')
+        }
+        .web-design {
+            background-image: url('/img/parallelization-diagram.png');
+        }
+        .tsv {
+            background-image: url('/img/tsv.png');
+        }
+        .dfc {
+            background-image: url('/img/dfc.png');
+        }
+        .shugl {
+            background-image: url('/img/shugl.png');
+        }
+        .buzzcard {
+            background-image: url('/img/bpmn.png');
         }
 
         .content-box:hover {
@@ -91,43 +135,24 @@
             
         }
 
-        .content-box:last-of-type {
-            max-width:29%; 
+        .content-box:hover .overlay {
+            opacity: 1; 
+            p { 
+                visibility: visible;
+            }
         }
 
-        .blog {
-            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/blog-final-1.png') center center no-repeat;
-            background-size: cover; 
-           
+        .content-box:last-of-type {
+            max-width: 30%;
         }
     
         .notifications {
             background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/settings.png') center center no-repeat;
             background-size: cover;
         }
+
         .design {
             background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/parallelization-diagram.png') center center no-repeat;
-            background-size: cover;
-        }
-
-        .tsv {
-            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/tsv.png') center center no-repeat;
-            background-size: cover;
-        }
-
-        .dfc {
-            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/dfc.png') center center no-repeat;
-            background-size: cover;
-
-        }
-
-        .shugl {
-            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/shugl.png') center center no-repeat;
-            background-size: cover;
-        }
-
-        .buzzcard {
-            background:linear-gradient(to bottom, rgba(75, 0, 25, 0.6), rgba(0, 0, 0, 0.9)), url('/img/bpmn.png') center center no-repeat;
             background-size: cover;
         }
 

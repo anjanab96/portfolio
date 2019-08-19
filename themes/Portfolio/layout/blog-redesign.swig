@@ -3,7 +3,8 @@
     <div class="page-content-wrapper">
         <div class="project-page-header">
             <h2>Blog Redesign & Migration</h2>
-            <h3>Cypress.io</h3> 
+            <hr>
+            <h4>Cypress.io | UX Design, Visual Design</h4> 
         </div>
         <div class="project-details">
             <div class="project-details-section">
@@ -16,6 +17,7 @@
                 experience and creates a strain on the marketing team as they must depend on members of the engineering 
                 team for all blog post publishing. </p>
             </div>
+            
             <div class="project-details-section">
                 <h4>Objective</h4>
                 <p>The main goal of this project was to move towards a non-developer friendly platform that empowered the 
@@ -31,7 +33,7 @@
                 <p>After weighing these pros and cons and discussing what works best for the company’s current needs, we chose 
                 to proceed with moving the blog to the Ghost blogging platform.</p>
             </div>
-            <div class="proejct-details-section">
+            <div class="project-details-section">
                 <h4>Design Research</h4>
                 <p>Before approaching the design for the revamped blog, I revisited the same list of SaaS companies and analyzed 
                 the components of their company blogs, as well as the design styles and layouts. Some of the common blog elements 

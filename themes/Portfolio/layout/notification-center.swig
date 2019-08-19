@@ -5,7 +5,8 @@
 
         <div class="project-page-header">
             <h2>Notifications Center</h2>
-            <h3>Cypress.io</h3> 
+            <hr>
+            <h4>Cypress.io | UX Design, UI Design</h4> 
         </div>
 
         <div class="project-details">
@@ -48,7 +49,7 @@
                 In the current system, user actions were not always reinforced by a confirmation message, which led to confusion and unnecessary support emails.</p>
                 <p>I began with a dedicated notification page, with an inbox style layout where items could be marked as read/unread and deleted, but it 
                 eventually evolved into a mixture of a dropdown notification list, inline-notifications, and toasts.</p>
-                <div id="notifications-iterations">
+                <div id="notifications-iterations" >
                     <div class="notifications-iterations-item">
                         <img src="/img/notifications/iteration-1.PNG">
                         <small>Iteration 1 - full page notifications center</small>

@@ -1,27 +1,32 @@
 .site-wrapper {
-    display: flex;
-    justify-content: center;
 
     .page-content-wrapper {
-        display: flex; 
-        flex-direction: column; 
-        margin-top: 10%; 
-        margin-bottom: 5%; 
-        width:70%; 
-
+       margin-top: 9%; 
         .project-page-header {
-
+            background-color:#031926; 
+            padding: 5% 0; 
+            margin: 0 auto;
+            text-align: center;
+            width:70%;
+            
             h2 {
                 font-size: 2em; 
+                color: white; 
             }
-
-            h3 {
-                font-size: 1.5em;
-                font-weight: 500; 
+            hr {
+                width: 15%; 
+                color: white; 
             }
+            h4 {
+                color:white; 
+                font-family: "Open Sans";
+            }
+        
         }
 
         .project-details {
+            width:70%;
+            margin: 0 auto;
 
             .project-details-section {
 
@@ -36,10 +41,13 @@
                     color: #d4145a; 
                     font-weight: 600; 
                 }
-
                 img {
-                    width: 80%; 
+                    width: 40%;
                 }
+
+               
+
+            
                 small {
                     display: block;
                 }

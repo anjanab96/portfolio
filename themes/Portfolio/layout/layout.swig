@@ -4,8 +4,8 @@
 <body>
   <div id="container">
     {{ body }}
-  </div>
-  {{ partial('partial/footer') }}
-  {{ partial('partial/after_footer') }}
+    {{ partial('_partial/footer') }}
+    {{ partial('_partial/after-footer') }}
+  </div> 
 </body>
 </html>

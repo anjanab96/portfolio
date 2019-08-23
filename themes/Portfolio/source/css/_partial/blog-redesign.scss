@@ -1,11 +1,12 @@
 .site-wrapper {
 
     .page-content-wrapper {
-       margin-top: 9%; 
+        width:100%; 
+        margin-top: 9%; 
         .project-page-header {
             background-color:#031926; 
             padding: 5% 0; 
-            margin: 0 auto;
+            margin: 0 auto 5% auto ;
             text-align: center;
             width:70%;
             
@@ -19,202 +20,51 @@
             }
             h4 {
                 color:white; 
-                font-family: "Open Sans";
+                font-family: "Open Sans Light";
             }
         
         }
 
         .project-details {
-            width:70%;
-            margin: 0 auto;
+            width: 70%; 
+            margin: 0 auto; 
 
-            .project-details-section {
+            .details-section {
+                margin-bottom: 3%; 
 
                 h4 {
-                    font-size: 1.3em; 
+                    font-size: 1.5em;
+                    margin: 0; 
                 }
-                p {
-                    font-size: 1em; 
-   
+                p, ul, li {
+                    font-family: "Open Sans Light";
+                    line-height: 24px; 
+                    list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
                 }
-                a {
-                    color: #d4145a; 
-                    font-weight: 600; 
+                
+                ul li {
+                    font-style: italic; 
+                }
+
+               .carousel {
+                   margin-top: 3%; 
+                   img {
+                       width: 90%; 
+                       margin: 0 auto 3\% auto; 
+                   }
+               }
+            }
+
+            .flex-wrapper {
+                display:flex; 
+                div {
+                    padding: 0 5% 0 0 ;
                 }
                 img {
-                    width: 40%;
+                    width: 45%; 
                 }
-
-               
-
-            
-                small {
-                    display: block;
-                }
-                #diagrams {
-                    display:flex; 
-                    flex-wrap: wrap; 
-
-                    .diagram-item {
-
-                        display:flex; 
-                        flex-direction: column; 
-                        width: 45%; 
-                        margin-bottom: 5%;
-                        margin-right: 5%; 
-                      
-                        img {
-                            width: 100%; 
-                        }
-
-                    }
-                    
-                }
-
-                #blog-iterations {
-                    display:flex; 
-                    flex-wrap: wrap; 
-                  
-
-                    .iteration {
-                        display:flex; 
-                        flex-direction: column; 
-                        width: 45%; 
-                        margin-right: 5%; 
-                        margin-bottom: 5%; 
-
-                        img {
-                            width: 100%; 
-                            margin-bottom: 2%; 
-                        }
-                    }
-                }
-
-                #blog-final {
-                    display:flex; 
-                    flex-wrap:wrap; 
-
-                    .blog-final-item {
-                        width: 45%; 
-                        margin-right: 5%; 
-                        margin-bottom: 5%; 
-                        
-                        img {
-                            width: 100%; 
-                        }
-                    }
-                }
-
-                #events {
-                    display:flex; 
-                    flex-wrap: wrap; 
-
-                    .events-item {
-                        display:flex; 
-                        flex-direction: column; 
-                        margin-right: 5%; 
-                        margin-bottom: 5%; 
-
-                        img {
-                            width: 100%; 
-                            margin-bottom: 5%; 
-                        }
-                    }
-                }
-
-                #buzzcard-analysis {
-                    display: flex; 
-                    flex-wrap: wrap; 
-                    margin-top: 5%; 
-
-                    .buzzcard-analysis-item {
-                        display: flex; 
-                        flex-direction: column; 
-                        margin-bottom: 5%; 
-
-                        img {
-                            width: 100%; 
-                            margin-bottom: 2%; 
-                        }
-
-                    }
-                }
-
-                #buzzcard-final {
-                    margin-top: 5%; 
-                    img {
-                        margin-bottom: 2%; 
-                    }
-                }
-
-                #gba-images {
-                    display:flex; 
-
-                    .gba-images-item {
-                        display:flex; 
-                        flex-direction: column; 
-                        margin-right: 5%; 
-                        margin-top: 5%; 
-                        img {
-                            margin-bottom: 2%; 
-                        }
-                    }
-                }
-
-                #pig-game-images {
-                    display: flex; 
-
-                    .pig-game-image {
-                        display: flex; 
-                        flex-direction: column; 
-                        img {
-                            width: 70%; 
-                            margin-top: 2%; 
-                            margin-bottom: 2%; 
-                        }
-                    }
-                }
-
-                #shugl-survey, #shugl-iterations, #shugl-final {
-                    display:flex; 
-                    margin-top: 5%; 
-
-                    .shugl-survey-item, .shugl-iterations-item, .shugl-final-item {
-                        display: flex;
-                        flex-direction: column; 
-                        margin-right: 5%; 
-
-                        img {
-                            width: 100%; 
-                            margin-bottom: 2%; 
-                        }
-                    }
-                }
-
-                #shugl-iterations {
-                    flex-wrap: wrap; 
-                    .shugl-iterations-item:nth-of-type(2) {
-                        min-width: 500px; 
-                    }
-                }
-
-                #shugl-final {
-                    .shugl-final-item {
-                        img {
-                            min-width: 400px; 
-                        }
-                    }
-                }
-
-                #notifications-iterations, #notifications-final {
-
-                    .notifications-iterations-item, .notifications-final-item {
-                        
-                        margin-bottom: 5%; 
-                    }
-                }
-
-            }  
+            }
         }
+
     }
 }

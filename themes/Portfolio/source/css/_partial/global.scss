@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, blockquote {
+h1, h2, h3, h4, h5{
     font-family: 'Merriweather', serif; 
     color: #333333; 
 }
@@ -22,9 +22,23 @@ small {
 }
 
 blockquote {
+    font-family:"Merriweather Light", serif;
     font-style: italic;
-    font-weight: 400; 
+    color: #d4145a;
+    font-size: 1.3em;
 }
+
+blockquote:before {
+    content: "\201C";
+}
+
+
+blockquote:after {
+    content:"\201D"; 
+   
+}
+
+
 
 button {
     background: #d4145a; 

@@ -1,62 +1,35 @@
 .site-wrapper {
 
-    .content-wrapper {
-
-        #about {
-
-            margin-left: 10%; 
-            margin-right: 5%; 
-
-            #about-top {
-            
-                display:flex; 
-                margin-bottom: 5%; 
-                 
-                 #headshot {
-                     width: 30%;
-         
-                     img {
-                         width: 100%; 
-                         box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);
-                        
-                     }
-                 }
-     
-                 #about-quote {
-                     width: 70%; 
-                     display: block; 
-                     font-size: 2.5rem; 
-                     padding: 0 10%; 
-                     margin: .3em 0 0 0; 
-                     color: #333333;
-                     line-height: 1.5em;
-                     span {
-                         color: #d4145a;
-                         font-family: 'Merriweather', serif; 
-                         font-weight: 600; 
-                     }
-                 }
+    .about-content-wrapper {
+        width:100%; 
+        margin-top: 15%; 
+        .about-wrapper {
+            display: flex;
+            width:70%; 
+            margin: 0 auto; 
+            img {
+                width:25%; 
+                border-radius: 60%; 
+                box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.2);
             }
-     
-            #about-bottom {
-                margin: 1em 0 0 0; 
-                padding: 0 15% 0 0; 
-                font-size: 1.5em;
+            p {
+                font-family: "Open Sans Light";
+            }
+            small {
                 font-weight: 300; 
-                
-                p {
-                    font-family: 'Open Sans', sans-serif; 
-                    margin-bottom: 1.6em;
-     
-                    a {
-                        color: #d4145a; 
-                        font-weight:700; 
-                    }
-                }
             }
-     
+           
 
+           .about-details {
+               display:flex; 
+               flex-direction: column; 
+               align-items: flex-start;
+               padding: 0 8%; 
+
+           }
         }
+
+        
        
     }
 }

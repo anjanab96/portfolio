@@ -5,11 +5,12 @@
 
         <div class="project-page-header">
             <h2>Web Design</h2>
-            <h3>Cypress.io</h3> 
+            <hr>
+            <h4>Cypress.io | Visual Design</h4> 
         </div>
 
         <div class="project-details">
-            <div class="project-details-section">
+            <div class="details-section">
                 <h4>Graphic Design - Product Benefits</h4>
                 <p>One of my first projects when I started at Cypress involved figuring out a way to easily 
                 convey the value of the dashboard product to users who aren’t necessarily developers, QA 
@@ -17,7 +18,7 @@
                 and the current information on the website wasn’t showing that in an obvious way. The goal was to 
                 create visual aids that help understand how the dashboard works with the test runner, and why it’s
                  worth paying a premium for. You can also view these graphics <a href="https://www.cypress.io/dashboard/" target="_blank">here.</a></p>
-                 <div id="diagrams">
+                 <div class="carousel">
                     <div class="diagram-item">
                         <img src="/img/web-design/grouping.PNG">
                         <small>Rotating carousel displaying examples of how to use the grouping feature</small>
@@ -36,7 +37,7 @@
                     </div>
                  </div>
             </div>
-            <div class="project-details-section">
+            <div class="details-section">
                 <h4>Events Page</h4>
                 <p>The employees at Cypress are very active in the tech community, and often attend conferences and give 
                 talks about Cypress.io, but there wasn’t a place where these events were captured, and thus the events 
@@ -50,7 +51,7 @@
                 For the list of upcoming events, I went with a card style grid layout, with accents of the green branding 
                 color scattered throughout. You can view this page <a href="https://www.cypress.io/events/" target="_blank">here.</a></p>
 
-                <div id="events">
+                <div class="carousel">
                     <div class="events-item">
                         <img src="/img/web-design/events-1.PNG">
                         <small>Card layout for upcoming events list</small>

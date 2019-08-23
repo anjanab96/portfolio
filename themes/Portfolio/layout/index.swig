@@ -8,7 +8,7 @@
         <div class="content-box tsv"><div class="overlay"><a href="/tsv"><p class="title">Tech Stack Visualization</p><p class="company">The Coca-Cola Company</p><p class="skills">UX Design, Visual Design</p></a></div></div>
         <div class="content-box dfc"><div class="overlay"><a href="/dfc"><p class="title">Digital Framework Community</p><p class="company">The Coca-Cola Company</p><p class="skills">UI Design</p></a></div></div>
         <div class="content-box shugl"><div class="overlay"><a href="/shugl"><p class="title">Shugl</p><p class="company">Georgia Tech</p><p class="skills">UX Design, UI Design</p></a></div></div>
-        <div class="content-box buzzcard"><div class="overlay"><a href="/buzzcard-reader"><p class="title">Buzzcard Reader Installation</p><p class="company">Georgia Tech</p><p class="skills">UX Design</p></a></div></div>
+        <div class="content-box buzzcard"><div class="overlay"><a href="/buzzcard-reader-installation"><p class="title">Buzzcard Reader Installation</p><p class="company">Georgia Tech</p><p class="skills">UX Design</p></a></div></div>
 
          <!--
 

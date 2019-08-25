@@ -8,47 +8,21 @@
             #subtitle-accent {
                 font-size: 1.4em; 
             }
-            #sidebar-social-icons {
-                padding: 0 25% 0 3%; 
-
-            }
+        }
+        .content-wrapper {
+            margin-top: 12%; 
         }
     }
 }
 
-@media (max-width: 1100px) {
-    .site-wrapper {
-        .main-nav {
-            width: 22%; 
-        }
-        .content-wrapper {
-            width: 78%; 
-            margin-left: 29%; 
-        }
-    }
-}
-
-@media (max-width:1000px) {
+@media (max-width:1100px) {
 
     .site-wrapper {
-        .main-nav {
-            h2 {
-                font-size: 1.5em; 
-            }
-            #subtitle-accent {
-                font-size: 1.2em; 
-            }
-            #sidebar-social-icons {
-                flex-direction: column; 
-
-                .sidebar-icon {
-                    margin-bottom: 10%; 
-                }
-            }
-        }
+        
         .content-wrapper {
+            margin-top: 15%; 
             .content-box {
-                min-width: 50%; 
+                min-width: 40%; 
                 .project-title {
                     font-size: 1em; 
                 }
@@ -57,62 +31,21 @@
                     margin-bottom: 2%; 
                 }
             }
-
         }
     }
 
 
 }
 
-@media (max-width: 900px) {
-    
-    .site-wrapper {
-        .main-nav {
-            width: 26%; 
-        }
-        .content-wrapper {
-            margin-left: 36%;
-            width: 77%; 
-           
-
-        }
-    }
-
-}
-
-@media (max-width: 750px) {
-    .site-wrapper {
-        .main-nav {
-            width: 30%; 
-        }
-        .content-wrapper {
-            margin-left: 44%;
-            width: 77%; 
-            .content-box {
-                min-width: 50%; 
-            }
-           
-
-        }
-    }
-
-}
 
 @media (max-width: 650px) {
     .site-wrapper {
-        .main-nav {
-            width: 33%; 
-        }
+      .content-wrapper {
+          margin-top: 17%;
+      }
     }
 }
 
-@media (max-width:600px) {
-    .site-wrapper {
-        .main-nav {
-            width: 35%; 
-        }
-    }
-}
 
 @media (max-width: 550px) {
     .site-wrapper {

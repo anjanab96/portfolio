@@ -1,4 +1,5 @@
 
+/* Desktop Breakpoints */
 @media (max-width:1250px) {
     .site-wrapper {
         .main-nav {
@@ -57,7 +58,7 @@
         }  
     }
 }
-
+/* Tablet/iPad Breakpoints */
 @media screen and (max-width: 1024px) {
     .site-wrapper {
         .content-wrapper {
@@ -77,14 +78,14 @@
     }
 }
 
+/* Mobile Breakpoints */
 @media screen and (max-width: 414px) {
     .site-wrapper {
         .main-nav {
             align-items: center; 
             #initial-logo img {
                 width:70%; 
-            }
-           
+            }   
         }
         .content-wrapper {
             .content-box  {
@@ -93,6 +94,42 @@
             .content-box:last-of-type{
                 min-width:100%; 
             }
+            #contact {
+                margin-left: 0; 
+            }
+        }
+
+        .about-content-wrapper {
+            margin-top: 15%; 
+            .about-wrapper {
+                width: 90%; 
+                img {
+                    width: 50%; 
+                }
+                .about-details {
+                    p {
+                        font-size: 1.1em; 
+                    }
+                }
+            }
+        }
+        .page-content-wrapper {
+            .project-page-header {
+                width: 100%; 
+            }
+            .project-details {
+                width: 80%; 
+                img {
+                    width:100%; 
+                }
+                .flex-wrapper {
+                    display: block;
+                    img {
+                        width:100%; 
+                    }
+                }
+            }
+            
         }
     }
 }

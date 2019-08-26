@@ -1,18 +1,39 @@
 .site-wrapper {
-    display: flex; 
-    flex-wrap: nowrap; 
-    justify-content: center;
+
+    .mobile-nav {
+        display: none;
+        position: fixed;
+        width:100%; 
+        text-align: center;
+        background: rgb(241, 237, 240); 
+        transition: height, 2s;
+        z-index: 90;
+        ul {
+            padding: 3% 0 2% 0; 
+            list-style:none; 
+            
+            li {
+                padding: 10px 0; 
+                font-family: 'Merriweather', serif; 
+                font-weight: 700;
+            }
+            a:hover {
+                color: #d4145a; 
+            }
+        }
+    }
 
     .main-nav {
         display:flex; 
         justify-content: flex-end;
-        position:fixed; 
+        position:sticky; 
         top: 0; 
         left: 0;
         width:100%; 
         background-color: #E7DEE5;  
         padding: 2% 0; 
-        z-index: 1;
+        margin-bottom: -20px; 
+        z-index: 100;
         box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 0.3);
 
         #initial-logo {
@@ -44,12 +65,19 @@
                 font-weight: 600; 
             }
         }
+
+        #hamburger-menu {
+            font-size: 2em;
+            margin-top: 1%; 
+            margin-right: 9%; 
+            display: none; 
+        }
     }
 
     .content-wrapper {
         display: flex;  
         flex-wrap: wrap; 
-        margin-top: 10%; 
+        margin: 7% auto 0 auto; 
         width:80%; 
 
         .content-box {

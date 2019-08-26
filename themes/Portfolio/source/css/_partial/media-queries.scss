@@ -9,18 +9,23 @@
                 font-size: 1.4em; 
             }
         }
-        .content-wrapper {
-            margin-top: 12%; 
-        }
     }
 }
 
 @media (max-width:1100px) {
 
     .site-wrapper {
-        
+      .main-nav {
+          ul {
+              visibility: hidden;
+          } 
+          #hamburger-menu {
+            display: inline;  
+        }
+      }
+
         .content-wrapper {
-            margin-top: 15%; 
+            margin-top: 9%; 
             .content-box {
                 min-width: 40%; 
                 .project-title {
@@ -32,36 +37,50 @@
                 }
             }
         }
-    }
 
-
-}
-
-
-@media (max-width: 650px) {
-    .site-wrapper {
-      .content-wrapper {
-          margin-top: 17%;
-      }
-    }
-}
-
-
-@media (max-width: 550px) {
-    .site-wrapper {
-        .main-nav {
-            h2 {
-                font-size: 1.3em; 
-            }
-            #subtitle-accent {
-                font-size: .9em; 
-            }
-            ul {
-                li {
-                    font-size: 1em; 
+        .about-content-wrapper {
+            .about-wrapper {
+                flex-direction: column; 
+                align-items: center;
+                img {
+                    width: 40%; 
                 }
+                .about-details {
+                    padding: 0; 
+                    text-align: center;
+                    p {
+                        font-size: 1.4em; 
+                        line-height: 1.6em; 
+                    }
+                }
+            }
+        }  
+    }
+}
+
+@media (max-width: 1034px) {
+    .site-wrapper {
+        .content-wrapper {
+            .content-box:last-of-type {
+                min-width:48%; 
             }
         }
     }
 }
+
+@media (max-width: 414px) {
+    .site-wrapper {
+        .content-wrapper {
+            .content-box {
+                min-width:100%; 
+            }
+        }
+    }
+}
+
+
+
+
+
+
 

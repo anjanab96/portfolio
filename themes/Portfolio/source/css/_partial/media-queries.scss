@@ -12,12 +12,12 @@
     }
 }
 
-@media (max-width:1100px) {
+@media screen and (max-width:1100px) {
 
     .site-wrapper {
       .main-nav {
           ul {
-              visibility: hidden;
+              display: none;
           } 
           #hamburger-menu {
             display: inline;  
@@ -58,20 +58,39 @@
     }
 }
 
-@media (max-width: 1034px) {
+@media screen and (max-width: 1024px) {
     .site-wrapper {
         .content-wrapper {
             .content-box:last-of-type {
                 min-width:48%; 
             }
+            .content-box .overlay {
+                opacity: 1; 
+                a {
+                    p {
+                        visibility: visible; 
+                    }
+                }
+               
+            }
         }
     }
 }
 
-@media (max-width: 414px) {
+@media screen and (max-width: 414px) {
     .site-wrapper {
+        .main-nav {
+            align-items: center; 
+            #initial-logo img {
+                width:70%; 
+            }
+           
+        }
         .content-wrapper {
-            .content-box {
+            .content-box  {
+                min-width:100%; 
+            }
+            .content-box:last-of-type{
                 min-width:100%; 
             }
         }
